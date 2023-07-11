@@ -1,0 +1,216 @@
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-color: transparent !important;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: transparent !important;
+}
+
+#hudDisplay {
+	right: 20px;
+	bottom: 25px;
+	position: absolute !important;
+}
+
+#imgserver {top: 20px;right: 0;left: 0;width: 180px;margin: 0 auto 0 auto;}
+#imgserver img {max-width: 110%;opacity: 0.7;}
+
+.hudDisplayText {
+	font-weight: 700;
+	padding: 6px 9px;
+	color: rgba(255,255,255,0.7);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+	text-align: center;
+}
+
+.infosBack {
+	float: left;
+	right: 10px;
+	bottom: 35px;
+	text-align: right;
+	color: rgba(255,255,255,0.3);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
+
+.infosBack b {
+	color: rgba(255,255,255,0.5);
+}
+
+.voiceBack {
+	float: left;
+	width: 6px;
+	height: 26px;
+	margin-left: 10px;
+}
+
+.voiceDisplay1 {
+	float: left;
+	width: 6px;
+	height: 6px;
+}
+
+.voiceDisplay2 {
+	float: left;
+	width: 6px;
+	height: 6px;
+}
+
+.voiceDisplay3 {
+	float: left;
+	width: 6px;
+	height: 6px;
+}
+
+.healthBack {
+	float: left;
+	width: 70px;
+	height: 26px;
+	background: rgba(90,0,0,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+.healthDisplay {
+	float: left;
+	height: 26px;
+	background: rgba(170,0,0,0.8);
+	
+	transition: all 0.10s;
+}
+
+.armourBack {
+	float: left;
+	width: 45px;
+	height: 26px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+.armourDisplay {
+	float: left;
+	height: 26px;
+	background: rgba(150,150,150,0.8);
+	
+	transition: all 0.10s;
+}
+
+/* .thirstBack {
+	float: left;
+	width: 27px;
+	height: 26px;
+	background: rgba(0,50,220,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+.thirstDisplay {
+	float: left;
+	height: 26px;
+	background: rgba(0,100,255,0.8);
+	
+	transition: all 0.10s;
+}
+
+.hungerBack {
+	float: left;
+	width: 29px;
+	height: 26px;
+	background: rgba(220,90,0,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+.hungerDisplay {
+	float: left;
+	height: 26px;
+	background: rgba(255,145,0,0.8);
+	
+	transition: all 0.10s;
+} */
+
+.staminaBack {
+	float: left;
+	width: 29px;
+	height: 26px;
+	background: rgba(0,90,90,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+.staminaDisplay {
+	float: left;
+	height: 26px;
+	background: rgba(0,130,130,0.8);
+	
+	transition: all 0.10s;
+}
+
+.clockBack {
+	float: left;
+	width: 51px;
+	height: 26px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.4);
+	margin-left: 5px;
+}
+
+#movieTop {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 13%;
+	background: #000;
+	position: absolute;
+	display: none;
+}
+
+#movieBottom {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 13%;
+	background: #000;
+	position: absolute;
+	display: none;
+}
+
+#carDisplay {
+	right: 10px;
+	bottom: 60px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+	color: rgba(255,255,255,0.6);
+	position: absolute !important;
+	text-shadow: 1px 1px rgba(0,0,0,1);
+}
+
+#carDisplay b {
+	font-size: 11px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding-right: 5px;
+	color: rgba(255,255,255,0.3);
+}
+
+#carDisplay s {
+	font-size: 11px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding-right: 5px;
+	color: rgba(0,128,255,0.6);
+	text-decoration: none;
+}
